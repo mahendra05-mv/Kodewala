@@ -11,6 +11,8 @@ import com.irctc.booking.entity.BookingEntity;
 import com.irctc.booking.response.BookingResponse;
 import com.irctc.booking.service.BookingServiceQA;
 
+//first git commit
+
 @RestController
 @RequestMapping("irctc")
 @Profile("QA")
@@ -28,5 +30,6 @@ public class BookingControllerQA {
 	@PostMapping("/displayDetails/{pnr}")
 	public BookingResponse displayDetails(@PathVariable long pnr) {
 		return serviceQA.displayDetails(pnr);
+
 	}
 }
