@@ -1,0 +1,46 @@
+package com.indigo.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.indigo.entity.TicketEntity;
+import com.indigo.repository.TicketRepository;
+import com.indigo.request.TicketRequest;
+
+@Service
+public class TicketService {
+
+	@Autowired
+	TicketRepository repository;
+	
+	public String bookTicket(TicketRequest request)
+	{
+		TicketEntity entity = new TicketEntity();
+		
+		entity.setName(request.getName());
+		entity.setDestination(request.getDestination());
+		entity.setPrice(request.getPrice());
+		entity.setSource(request.getSource());
+		entity.setStatus("Pending...");
+		
+		repository.save(entity);
+		
+		
+		
+		
+		return null;
+	}
+	
+	private String generatePnr() {
+	    String chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
+	    StringBuilder pnr = new StringBuilder();
+
+	    for (int i = 0; i < 6; i++) {
+	        int index = (int) (Math.random() * chars.length());
+	        pnr.append(chars.charAt(index));
+	    }
+
+	    return pnr.toString();
+	}
+	
+}

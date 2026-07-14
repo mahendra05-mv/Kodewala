@@ -1,0 +1,5 @@
+package com.indigo.payment.repository;
+
+public interface PaymentRepo {
+
+}

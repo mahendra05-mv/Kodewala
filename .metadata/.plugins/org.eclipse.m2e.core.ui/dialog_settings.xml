@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="/Users/distortion/eclipse-workspace-spring/bean_java_type_5"/>
+			<item value="/Users/distortion/eclipse-workspace-spring/Hibernate_zepto"/>
+			<item value="/Users/distortion/eclipse-workspace-spring/bean_xml_type_5"/>
+			<item value="/Users/distortion/eclipse-workspace-spring/mini-project-user-auth-module-e-com"/>
+			<item value="/Users/distortion/eclipse-workspace-spring/spring-web-mvc-architecture-bmw-enquiry"/>
+			<item value="/Users/distortion/eclipse-workspace-spring/spring-web-mvc-architecture-allen-e2e"/>
+			<item value="/Users/distortion/eclipse-workspace-spring/spring-web-mvc-architecture-zepto-e2e"/>
+			<item value="/Users/distortion/eclipse-workspace-spring/spring-web-mvc-model-attribute-amazon-signup"/>
+			<item value="/Users/distortion/eclipse-workspace-spring/spring-web-mvc-model-attribute-paytm-signup"/>
+			<item value="/Users/distortion/eclipse-workspace-spring/spring-web-mvc-model-attribute-kodewala-singUp"/>
+			<item value="/Users/distortion/eclipse-workspace-spring/spring-web-mvc-path-variable-kodewala"/>
+			<item value="/Users/distortion/eclipse-workspace-spring/spring-web-mvc-request-param-myntra"/>
+			<item value="/Users/distortion/eclipse-workspace-spring/spring-web-mvc-request-param-paytm"/>
+			<item value="/Users/distortion/eclipse-workspace-spring/spring-web-mvc-request-param-flipkart-search"/>
+			<item value="/Users/distortion/eclipse-workspace-spring/spring-web-mvc-request-param-amazon-search2"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="internal"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+			<item value="com.zepto"/>
+		</list>
+		<list key="groupId">
+			<item value="com.zepto"/>
+		</list>
+		<list key="artifactId">
+			<item value="Hibernet_nPlus1_zepto3"/>
+			<item value="Hibernet_nPlus1_zepto2"/>
+			<item value="Hibernet-nPlus1-zepto"/>
+			<item value="Hibernet_zepto_many_to_one"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="/Users/distortion/eclipse-workspace-spring"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+</section>

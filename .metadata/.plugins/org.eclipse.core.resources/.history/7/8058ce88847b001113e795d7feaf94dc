@@ -1,0 +1,5 @@
+package com.indigo.request;
+
+public class TicketRequest {
+
+}

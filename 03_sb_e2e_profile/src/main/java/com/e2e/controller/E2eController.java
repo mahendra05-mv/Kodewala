@@ -1,0 +1,23 @@
+package com.e2e.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Profile;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.e2e.request.E2eRequest;
+import com.e2e.service.E2eService;
+
+@RestController
+public class E2eController {
+
+	@Autowired
+	E2eService service;
+	
+	@PostMapping("/add")
+	public String createProd(@RequestBody E2eRequest request)
+	{
+		return service.createProduct(request.getName(), request.getPrice());
+	}
+}

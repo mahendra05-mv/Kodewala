@@ -1,0 +1,31 @@
+package com.amazon.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.amazon.entity.ProdEntity;
+import com.amazon.repository.ProdRepository;
+
+@Service
+public class ProdService {
+
+	@Autowired
+	ProdRepository prodRepository;
+
+	public ProdEntity createProduct(String name, String price, String desc) {
+		ProdEntity entity = new ProdEntity();
+
+		entity.setName(name);
+		entity.setPrice(price);
+		entity.setDesc(desc);
+
+		ProdEntity resp = prodRepository.save(entity);
+		if (resp.getProdId() > 0)
+			System.out.println("Product added successfully XD!!!");
+		else
+			System.out.println("Some error adding the product, please try again :(");
+
+		return resp;
+
+	}
+}

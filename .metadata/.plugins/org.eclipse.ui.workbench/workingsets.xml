@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workingSetManager>
+<workingSet editPageId="org.eclipse.jdt.internal.ui.DynamicSourcesWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1781612390034_0" label="Java Main Sources" name="Java Main Sources"/>
+<workingSet editPageId="org.eclipse.jdt.internal.ui.DynamicSourcesWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1781612390067_1" label="Java Test Sources" name="Java Test Sources"/>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1781612679930_3" label="" name="">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/BeanLifeCycle" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/BeanScope" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/bean_annotation_type_1" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/bean_java_type_1" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/bean_java_type_2" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/bean_java_type_3" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/bean_java_type_4" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/bean_java_type_5" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/bean_type_5" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/bean_xml_type" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/bean_xml_type_2" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/bean_xml_type_3" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/bean_xml_type_4" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/bean_xml_type_5" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/sample_web" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/sample_web2" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/sample_web3" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/sample_web4" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/sample_web5" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/spring-web-mvc-rapido-login" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/spring_xml_type" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/webapp-template" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/spring-web-mvc-rapido-login2" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/spring-web-mvc-icici-login" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Hibernet_nPlus1_zepto2" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Hibernet_nPlus1_zepto3" type="4"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1781612396198_2" label="Window Working Set" name="Aggregate for window 1781612396197"/>
+</workingSetManager>

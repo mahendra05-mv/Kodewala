@@ -1,0 +1,28 @@
+package com.irctc.booking.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.irctc.booking.response.BookingResponse;
+import com.irctc.booking.service.BookingServiceQA;
+
+@RestController
+@RequestMapping("irctc")
+public class BookingControllerQA {
+
+	@Autowired
+	BookingServiceQA serviceQA;
+
+	@PostMapping("/changeStatus/{pnr}")
+	public BookingResponse changeStatus(@PathVariable long pnr) {
+		return serviceQA.confirmStatus(pnr);
+	}
+
+	@PostMapping("/displayDetails/{pnr}")
+	public BookingResponse displayDetails(@PathVariable long pnr) {
+		return serviceQA.displayDetails(pnr);
+	}
+}

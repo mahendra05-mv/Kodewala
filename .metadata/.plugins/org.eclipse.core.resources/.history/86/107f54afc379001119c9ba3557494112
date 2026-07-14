@@ -1,0 +1,5 @@
+package com.e2e.request;
+
+public class E2eRequest {
+
+}

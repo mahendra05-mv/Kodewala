@@ -1,0 +1,10 @@
+package com.indigo.repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.indigo.entity.TicketEntity;
+
+public interface TicketRepository extends JpaRepository<TicketEntity, Long>
+{
+
+}

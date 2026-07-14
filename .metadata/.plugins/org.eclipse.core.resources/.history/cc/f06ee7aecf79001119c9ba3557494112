@@ -1,0 +1,10 @@
+package com.e2e.controller;
+
+import org.springframework.context.annotation.Profile;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+@Profile("QA")
+public class E2eControllerQA {
+
+}

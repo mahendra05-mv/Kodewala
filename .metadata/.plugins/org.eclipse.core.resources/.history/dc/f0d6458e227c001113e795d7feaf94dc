@@ -1,0 +1,5 @@
+package com.indigo.response;
+
+public class TicketResponse {
+
+}

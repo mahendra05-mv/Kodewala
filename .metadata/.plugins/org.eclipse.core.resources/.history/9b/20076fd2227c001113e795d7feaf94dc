@@ -1,0 +1,5 @@
+package com.indigo.payment.entity;
+
+public class PaymentEntity {
+
+}

@@ -1,0 +1,65 @@
+package com.amazon.service;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.amazon.entity.ProdEntity;
+import com.amazon.repository.ProdRepository;
+
+@Service
+public class ProdService {
+
+	@Autowired
+	ProdRepository prodRepository;
+
+	public String createProduct(String name, String price, String desc) {
+		
+		ProdEntity entity = new ProdEntity();
+
+		entity.setName(name);
+		entity.setPrice(price);
+		entity.setDesc(desc);
+
+		prodRepository.save(entity);
+		
+		return "Product added: "+ entity.getName();
+		
+
+	}
+
+//	public String searchProduct(String name) {
+//		ProdEntity resp = prodRepository.findByName(name);
+//		if (resp.getProdId() > 0)
+//			return "Product Name : " + resp.getName() + ", Price : " + resp.getPrice() + ", Desc :" + resp.getDesc();
+//		return "Product not found :(((";
+//	}
+//
+//	public String changeProductPrice(String name, String price) {
+//		ProdEntity resp = prodRepository.findByName(name);
+//		if (resp.getProdId() > 0) {
+//			resp.setPrice(price);
+//			return "Product's price has been changed XD!!!";
+//		}
+//		return "Unable to find product with that name, please try again :(((";
+//	}
+//
+//	public String removeProduct(String name) {
+//		ProdEntity resp = prodRepository.findByName(name);
+//		if (resp.getProdId() > 0) {
+//			prodRepository.delete(resp);
+//		}
+//		return "Unable to find product with that name, please try again :(((";
+//
+//	}
+//
+//	public String displayAllProducts() {
+//		List<ProdEntity> resp = prodRepository.findAll();
+//		for (ProdEntity e : resp)
+//			System.out.println(e.getName() + " " + e.getPrice() + " " + e.getDesc());
+//
+//		return "\n All the product details have been obtained XD!!!";
+//	}
+
+}
